@@ -89,7 +89,7 @@ VERTICE* remover(int chave,VERTICE *aux){
                     }
                     aux->chave = lixo->chave;
                     lixo->chave = chave;
-                    printf("\nValor aser removido: %d!",chave);
+                    printf("\nValor a ser removido: %d!",chave);
                     aux->esq = remover(chave,aux->esq);
                     return aux;
                 }
